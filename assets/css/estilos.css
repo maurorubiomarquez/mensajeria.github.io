@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.columna-izquierda {
+    background-color: #E8EBE4;
+    min-height: 100vh;
+    width: 20vw;
+    min-width: 150px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.columna-derecha {
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open-Sans', sans-serif;
+}
+
+.columna-derecha img {
+    width: 30%;
+}
+
+.usuario-en-linea {
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    border: 1px solid #cdcdcd;
+}
+.imagen-usuario-en-linea img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.datos-usuario {
+    width: 100%;
+    padding: 0 0.5rem;
+}
+
+.datos-usuario p {
+    font-size: small;
+
+}
+.iconos {
+    display: flex;
+    justify-content: flex-end; 
+}
+  
+.iconos i {
+    margin: 0 5px; 
+    align-items: end;
+}
+
+.botton {
+    padding: 1.5rem;
+    border: 1px solid #cdcdcd;
+}
+
+.boton-chat {
+    background-color:darkorchid;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    width: 100%;
+    border: 0;
+}
+
+.lista-contactos {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contacto img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.info-contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-contacto span {
+    font-size: 16px;
+    color: #666;
+}
+
+.info-contacto p {
+    font-size: 14px;
+    color: #999;
+}
+
